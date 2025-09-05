@@ -17,20 +17,20 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        // $code = \DB::table('portal_settings')->where('code', 'envmode')->first(['value']);
-        // if($code){
-        //     if($code->value == "server"){
-        //         if (!$request->secure()) {
-        //             return redirect()->secure($request->getRequestUri());
-        //         }
-        //     }
-        // }
+        $code = \DB::table('portal_settings')->where('code', 'envmode')->first(['value']);
+        if($code){
+            if($code->value == "server"){
+                if (!$request->secure()) {
+                    return redirect()->secure($request->getRequestUri());
+                }
+            }
+        }
 
-        // $ip = \DB::table('portal_settings')->where('code', 'whitelistip')->first(['value']);
+        $ip = \DB::table('portal_settings')->where('code', 'whitelistip')->first(['value']);
 
-        // if($ip->value != "::1" && $ip->value != $request->ip()){
-        //     abort(403);
-        // }
+        if($ip->value != "::1" && $ip->value != $request->ip()){
+            abort(403);
+        }
         
         if (Auth::guard($guard)->check()) {
             return redirect('/dashboard');
