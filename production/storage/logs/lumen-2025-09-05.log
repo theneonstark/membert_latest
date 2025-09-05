@@ -1,0 +1,10 @@
+[2025-09-05 14:57:15] server.ERROR: There are no commands defined in the "route" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"route\" namespace. at C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\symfony\\console\\Application.php:632)
+[stacktrace]
+#0 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\symfony\\console\\Application.php(683): Symfony\\Component\\Console\\Application->findNamespace('route')
+#1 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\symfony\\console\\Application.php(256): Symfony\\Component\\Console\\Application->find('route:list')
+#2 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\symfony\\console\\Application.php(168): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\illuminate\\console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\Users\\DELL\\Desktop\\membert_latest\\production\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 

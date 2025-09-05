@@ -16,25 +16,26 @@ class UserController extends Controller
 {
     public function loginpage(Request $get)
     {
-        $data['company'] = \App\Models\Company::where('website', $_SERVER['HTTP_HOST'])->first();
-        if ($this->env_mode() == "server") {
-            if($_SERVER['HTTP_HOST'] == "e-banker.in"){
-                $data['company'] = \App\Models\Company::where('website', "retail.e-banker.in")->first();
-                return view('welcome')->with($data);
-            }
-        }
+        // $data['company'] = \App\Models\Company::where('website', $_SERVER['HTTP_HOST'])->first();
+        // if ($this->env_mode() == "server") {
+        //     if($_SERVER['HTTP_HOST'] == "e-banker.in"){
+        //         $data['company'] = \App\Models\Company::where('website', "retail.e-banker.in")->first();
+        //         return view('welcome')->with($data);
+        //     }
+        // }
         
-        $data['company'] = \App\Models\Company::where('website', $_SERVER['HTTP_HOST'])->first();
+        // $data['company'] = \App\Models\Company::where('website', $_SERVER['HTTP_HOST'])->first();
 
-        if($data['company']){
-            $data['slides'] = \App\Models\PortalSetting::where('code', 'slides')->where('company_id', $data['company']->id)->orderBy('id', 'desc')->get();
-        }else{
-            abort(404);
-        }
-        $data['state'] = Circle::all();
-        $data['roles'] = Role::whereIn('slug', ['whitelable', 'md', 'distributor', 'retailer'])->get();
+        // if($data['company']){
+        //     $data['slides'] = \App\Models\PortalSetting::where('code', 'slides')->where('company_id', $data['company']->id)->orderBy('id', 'desc')->get();
+        // }else{
+        //     abort(404);
+        // }
+        // $data['state'] = Circle::all();
+        // $data['roles'] = Role::whereIn('slug', ['whitelable', 'md', 'distributor', 'retailer'])->get();
         
-        return view('loginpage')->with($data);
+        // return view('loginpage')->with($data);
+        return view('loginpage');
     }
     
     public function signup()
