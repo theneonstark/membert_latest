@@ -18,10 +18,10 @@ class Authenticate extends Middleware
             return route('mylogin');
         }
 
-        $ip = \DB::table('portal_settings')->where('code', 'whitelistip')->first(['value']);
+        // $ip = \DB::table('portal_settings')->where('code', 'whitelistip')->first(['value']);
 
-        if($ip->value != "::1" && $ip->value != $request->ip()){
-            abort(403);
-        }
+        // if($ip->value != "::1" && $ip->value != $request->ip()){
+        //     abort(403);
+        // }
     }
 }
