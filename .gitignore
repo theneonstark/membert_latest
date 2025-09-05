@@ -10,6 +10,6 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-config/database.php
+# config/database.php
 .DS_Store
 .DS_Store
