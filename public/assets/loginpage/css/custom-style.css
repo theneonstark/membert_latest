@@ -1,0 +1,284 @@
+.panel {
+  box-shadow: 0px 0px 13px 0px rgb(82 63 105 / 5%);
+  border-radius: 8px;
+}
+.panel-title {
+  text-align: center;
+}
+.content-page > .content {
+  background-color: #f5f5f5;
+  padding: 22px 5px 15px 5px;
+}
+#sidebar-menu > ul > li > a {
+  margin: 0;
+  color: #36454f;
+}
+#sidebar-menu ul li a i {
+  margin: 0 10px 0 5px;
+}
+#sidebar-menu .label-success {
+  margin: 8px 4px 0 4px !important;
+}
+#wrapper.enlarged #sidebar-menu > ul > li > a {
+  display: inline-block;
+}
+#sidebar-menu > ul > li > a:hover {
+  background-color: #fbe3e2;
+  color: #ed3833;
+}
+.topbar .topbar-left,
+.side-menu {
+  width: 250px;
+}
+.topbar .topbar-left {
+  min-height: unset;
+}
+.navbar {
+  min-height: 75px;
+}
+.button-menu-mobile:before,
+.button-menu-mobile:after,
+.button-menu-mobile i:before {
+  background-color: #ffffff;
+}
+.content-page {
+  margin-left: 250px;
+}
+.left > div {
+  margin-left: 0;
+}
+.custom-tabs {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding: 4px 8px;
+  background-color: #f5f5f5;
+}
+.custom-tabs li {
+  flex: 1 1;
+}
+.custom-tabs li a {
+  text-align: center;
+  padding: 0.75rem 1rem;
+  line-height: normal !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.nav > li > a {
+  font-size: 14px;
+}
+.nav.nav-tabs > li > a {
+  font-weight: 500;
+}
+.nav.nav-pills + .tab-content {
+  padding: 15px 15px;
+}
+.fw-medium {
+  font-weight: 500;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  padding-top: 0;
+}
+.button-menu-mobile {
+  margin: 22px 0 0 15px;
+}
+.rounded-0 {
+  border-radius: 0;
+}
+.side-menu.left {
+  top: 80px;
+}
+.content-page {
+  margin-top: 80px;
+}
+.navbar-default {
+  padding: 8px 0;
+}
+.custom-card {
+  margin-bottom: 30px;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  border: 0px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 13px 0px rgb(82 63 105 / 5%);
+  height: calc(100% - 30px);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+.custom-card .card-body {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+.currency-icon {
+  margin-top: -65px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 25%);
+  border-radius: 100%;
+  -webkit-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+.fs-14 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.font-w600 {
+  font-weight: 600;
+}
+.m-t35 {
+  margin-top: 35px;
+}
+.m-y-3 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.m-y-4 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.m-y-5 {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.h-screen {
+  height: 100vh;
+}
+.form-title {
+  overflow: hidden;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.form-title .title {
+  position: relative;
+  padding: 4px 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c757d;
+}
+.form-title .title::after {
+  content: "";
+  background-color: #ced4da;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+.form-title .title::before {
+  content: "";
+  background-color: #ced4da;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+}
+/* Responsive Style  */
+@media only screen and (max-width: 1600px) {
+  .currency-icon {
+    height: 65px;
+    width: 65px;
+  }
+  .card-coin h2 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .custom-card {
+    margin-bottom: 15px;
+    height: calc(100% - 15px);
+  }
+  .currency-icon {
+    margin-top: -50px;
+  }
+}
+@media only screen and (min-width: 767.99px) {
+  .h-md-screen {
+    height: 100vh;
+  }
+}
+@media (min-width: 1200px) {
+  .col-xl-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.bg-light{
+  background-color: #35363b!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3d46cd;
+    border-color: #3d46cd;
+}
+
+.text-primary {
+    color: #3d46cd !important;
+}
+
+
+textarea:focus, input:focus {
+    border-color: rgb(61 70 205) !important;
+    border: 2px solid rgba(0,0,0,.15);
+}

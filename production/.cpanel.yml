@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/peunique/public_html/production
+    - /bin/cp -R * $DEPLOYPATH

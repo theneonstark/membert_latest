@@ -1,0 +1,3 @@
+Name,Account,Bank,Ifsc,Mode,Amount,Mobile,Email,Remark
+Test,12345678,Icici,ICIC0003114,IMPS,100,1234567891,adc@gmai.com,
+Test2,123450678,Icici,ICIC0003114,IMPS,150,1234567891,adc@gmai.com,
